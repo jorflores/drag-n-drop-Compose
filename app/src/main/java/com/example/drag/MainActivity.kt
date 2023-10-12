@@ -61,8 +61,8 @@ class MainActivity : ComponentActivity() {
 @Composable
 private fun Drag() {
     Box(modifier = Modifier.fillMaxSize()) {
-        var boxOffsetX by remember { mutableStateOf(1000f) }
-        var boxOffsetY by remember { mutableStateOf(1000f) }
+        var boxOffsetX by remember { mutableStateOf(0f) }
+        var boxOffsetY by remember { mutableStateOf(0f) }
 
 
 
